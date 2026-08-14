@@ -1,13 +1,15 @@
-! Title: Turtlecute Host List
+! Title: Turtlecute Host List - Desktop
 ! Expires: 1 days
-! Description: Simple and small list with the most popular advertising, tracking, analytics and social advertising services
-! Homepage: https://github.com/Turtlecute33/adblocktest
+! Description: Small list with popular advertising, tracking, analytics and social advertising services, excluding OEM-specific domains
+! Homepage: https://github.com/YOUR_USERNAME/adblocktest
+! License: CC BY-NC-SA
+! Based on: Turtlecute Host List by Turtlecute
+! Original Source: https://github.com/Turtlecute33/adblocktest3/adblocktest
 ! License: CC BY-NC-SA
 ! Source: https://github.com/Turtlecute33/adblocktest/blob/master/src/d3host.adblock
 
 ! This list cover all the tests on https://adblock.turtlecute.org
 ! Type : Stable
-! Entries : 129
 ! Updated On: 17/3/2026
 ! Created by: Turtlecute
 
@@ -128,16 +130,6 @@
 ! --- YouTube
 ||ads.youtube.com^
 
-! --- TikTok
-||ads-api.tiktok.com^
-||analytics.tiktok.com^
-||ads-sg.tiktok.com^
-||analytics-sg.tiktok.com^
-||business-api.tiktok.com^
-||ads.tiktok.com^
-||log.byteoversea.com^
-
-
 !============ Mix =============
 
 ! --- Yahoo
@@ -165,57 +157,6 @@
 ||config.unityads.unity3d.com^
 ||adserver.unityads.unity3d.com^
 
-
-!============ OEMs ============
-
-! --- Realme
-||iot-eu-logser.realme.com^
-||iot-logser.realme.com^
-||bdapi-ads.realmemobile.com^
-||bdapi-in-ads.realmemobile.com^
-
-! --- Xiaomi
-||api.ad.xiaomi.com^
-||data.mistat.xiaomi.com^
-||data.mistat.india.xiaomi.com^
-||data.mistat.rus.xiaomi.com^
-||sdkconfig.ad.xiaomi.com^
-||sdkconfig.ad.intl.xiaomi.com^
-||tracking.rus.miui.com^
-
-! --- Oppo
-||adsfs.oppomobile.com^
-||adx.ads.oppomobile.com^
-||ck.ads.oppomobile.com^
-||data.ads.oppomobile.com^
-
-! --- Huawei
-||metrics.data.hicloud.com^
-||metrics2.data.hicloud.com^
-||grs.hicloud.com^
-||logservice.hicloud.com^
-||logservice1.hicloud.com^
-||logbak.hicloud.com^
-
-! --- OnePlus
-||click.oneplus.cn^
-||open.oneplus.net^
-
-! --- Samsung
-||samsungads.com^
-||smetrics.samsung.com^
-||nmetrics.samsung.com^
-||samsung-com.112.2o7.net^
-||analytics-api.samsunghealthcn.com^
-
-! --- Apple
-||iadsdk.apple.com^
-||metrics.icloud.com^
-||metrics.mzstatic.com^
-||api-adservices.apple.com^
-||books-analytics-events.apple.com^
-||weather-analytics-events.apple.com^
-||notes-analytics-events.apple.com^
 
 *$3p,domain=adblock.turtlecute.org
 /pagead.js$domain=adblock.turtlecute.org
